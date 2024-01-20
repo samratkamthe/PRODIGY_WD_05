@@ -1,3 +1,4 @@
+import WEATHER_API from "./apiKey.js";
 
 const getweather = async (city) => {
  
@@ -8,7 +9,7 @@ const getweather = async (city) => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'ae1d23678emsh39d4efee00e3645p10c2efjsn67c315ed0f41',
+            'X-RapidAPI-Key': WEATHER_API,
             'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
         }
     };
@@ -53,7 +54,7 @@ const forPune = async () => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'ae1d23678emsh39d4efee00e3645p10c2efjsn67c315ed0f41',
+            'X-RapidAPI-Key': WEATHER_API,
             'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
         }
     };
@@ -89,7 +90,7 @@ const forMumbai = async () => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'ae1d23678emsh39d4efee00e3645p10c2efjsn67c315ed0f41',
+            'X-RapidAPI-Key': WEATHER_API,
             'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
         }
     };
@@ -126,7 +127,7 @@ const forDelhi = async () => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'ae1d23678emsh39d4efee00e3645p10c2efjsn67c315ed0f41',
+            'X-RapidAPI-Key': WEATHER_API,
             'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
         }
     };
@@ -161,7 +162,7 @@ forDelhi();
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'ae1d23678emsh39d4efee00e3645p10c2efjsn67c315ed0f41',
+            'X-RapidAPI-Key': WEATHER_API,
             'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
         }
     };
