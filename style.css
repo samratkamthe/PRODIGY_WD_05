@@ -1,0 +1,63 @@
+#imgg {
+       
+        height: 31px;
+        margin-top: 10px;
+        
+    }
+body::before{
+    content: "";
+    position: fixed;
+    
+    height: 100vh;
+    width: 100%;
+    background: center / cover no-repeat url("https://th.bing.com/th/id/R.98f1db12da022615ab8478647b781dd4?rik=08tRwv5ZkA8VJw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fWeather-Photo.jpg&ehk=1vnDlHWl3lYDPLqie%2b05YqPEFXsUthhc1Y%2bNoVBQ6kk%3d&risl=&pid=ImgRaw&r=0");
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.font{
+    font-size: 1.2rem;
+}
+.table-responsive{
+    /* background-color: beige; */
+    border-radius: 20px;
+}
+
+
+.table>:not(caption)>*>* {
+    background-color: #aa9f5a;
+}
+.card-header {
+  
+    background-color: rgb(33 37 41);
+    color: white;
+    border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+.bgc li{
+    background-color: #3b3333;
+    color: white;
+    margin: 2px;
+    border-radius: 10px;
+}
+.cbody{
+    height: 100%;
+    width: 100%;
+   
+    background: center / cover no-repeat url("https://th.bing.com/th/id/OIP.ewo5JZprigg9WKlIG63fhQAAAA?rs=1&pid=ImgDetMainhttps://th.bing.com/th/id/OIP.ewo5JZprigg9WKlIG63fhQAAAA?rs=1&pid=ImgDetMain");
+  
+}
+.dbody{
+    height: 100%;
+    width: 100%;
+   
+    background: center / cover no-repeat url("https://th.bing.com/th/id/OIP.KaxjhL42ewb3BUrIP16g_gHaGD?w=210&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+  
+}
+
+.vbody{
+    height: 100%;
+    width: 100%;
+   
+    background: center / cover no-repeat url("https://th.bing.com/th/id/OIP.RGAAgMGrTQ2649W-4Xt-NAHaE7?w=273&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+  
+}
